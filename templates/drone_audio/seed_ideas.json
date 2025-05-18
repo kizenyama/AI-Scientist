@@ -1,0 +1,18 @@
+[
+{
+"Name": "temporal_feature_comparison",
+"Title": "Temporal vs Spectral Features: Comparing MFCC, Mel-Spectrograms, and Raw Waveforms for TinyML Drone Detection",
+"Experiment": "Compare the model size, accuracy, and inference latency when using different audio feature extraction methods (MFCCs, Mel-spectrograms, raw waveforms with 1D convolutions) for drone detection on microcontrollers.",
+"Interestingness": 8,
+"Feasibility": 9,
+"Novelty": 6
+},
+{
+"Name": "knowledge_distillation",
+"Title": "Teacher-Student Knowledge Distillation for Ultra-Efficient Drone Audio Detection",
+"Experiment": "Train a large 'teacher' model for maximum accuracy, then distill knowledge into a compact 'student' model suitable for microcontrollers, comparing performance against directly trained small models.",
+"Interestingness": 8,
+"Feasibility": 6,
+"Novelty": 7
+}
+]
